@@ -39,3 +39,19 @@ void pilihanJurusan(){
             break;
     }
 }
+
+// Prosedur output
+void output(){
+    cout<<"\n=== HASIL SELEKSI ==="<<endl;
+    cout<<"Jurusan yang dipilih: "<<namaJurusan<<endl;
+    cout<<"Status Kuota: "<<statusKuota<<endl;
+    cout<<"----------------------------------------------------"<<endl;
+}
+
+int main(){
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
+}
