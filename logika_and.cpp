@@ -11,6 +11,7 @@ int main(){
 
     cout << "Masukkan nilai Bahasa Inggris: ";
     cin >> nilB;
+// Hitung rata-rata nilai
+    rerata = (nilM + nilB) / 2;
 
-    
 }
