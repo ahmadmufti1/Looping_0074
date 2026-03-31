@@ -28,4 +28,15 @@ int main(){
     cout<< "Bilangan acak while yang terakhir = "<<x <<endl;
     cout<<endl;
 
+//Perulangan dengan do while
+    cout<<"Perulangan do while"<<endl;
+// Perulangan do while akan menjalankan blok kode minimal satu kali, kemudian akan terus berjalan selama nilai x kurang dari atau sama dengan 5
+    x = 1 + rand()%10;
+    do{
+        cout<<"Bilangan acak = "<<x <<endl;
+        x = rand()%10;
+    }while(x <= 5);
+// Setelah keluar dari perulangan do while, nilai x akan lebih besar dari 5
+    cout<<"Bilangan acak do while yang terakhir = "<<x <<endl;
+    cout<<endl;
 }
