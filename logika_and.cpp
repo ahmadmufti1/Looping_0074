@@ -14,4 +14,11 @@ int main(){
 // Hitung rata-rata nilai
     rerata = (nilM + nilB) / 2;
 
+// Logika AND: Siswa lulus jika rata-rata nilai lebih besar atau sama dengan 60 dan 70
+    if(( rerata >= 60) && (rerata >= 70))
+        status = "Lulus";
+    else
+        status = "Tidak Lulus";
+
+    cout << "Status kelulusan : " << status<< ", dengan nilai rata-rata  : " << rerata << endl;
 }
